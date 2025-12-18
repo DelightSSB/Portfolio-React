@@ -1,0 +1,68 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+:root {
+  --main: #a640fa;
+  --accent: #f8f8f8;
+  --text-light: #ffffff;
+  --text-color: #000000;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--accent);
+  font-family: Nunito;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 2rem;
+}
+
+/* Media Queries */
+@media (max-width: 1536px){
+  .container{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1280px){
+  .container{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1024px){
+  .container{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 768px){
+  .container{
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 640px){
+  .container{
+    width: 100%;
+  }
+}
+@media (max-width: 475px){
+  .container{
+    width: 100%;
+  }
+}
