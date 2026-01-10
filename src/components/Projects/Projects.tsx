@@ -2,6 +2,7 @@ import "./Projects.css";
 import AetherNotes from "../../assets/AetherNotes.png";
 import AICompanion from "../../assets/AI-Companion Image.png";
 import ToDo from "../../assets/ToDo-List.png";
+import CrudAPI from "../../assets/CRUD API.png"
 
 export default function Projects() {
   return (
@@ -141,6 +142,41 @@ export default function Projects() {
             Current W.I.P project that's a customizable AI companion chatbox.
             Main feature is being able to create an ai girlfriend/boyfriend
             who's personality can be customized to your liking.
+          </p>
+        </div>
+        <div className="project-card">
+          <a
+            href="https://github.com/DelightSSB/CRUD-API-START"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={CrudAPI}
+              alt="Screen shot of CRUD A-P-I Github"
+              className="poster"
+            />
+          </a>
+          <h3>Beginner CRUD API</h3>
+          <div className="project-tech-stack">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg"
+              alt="typescript"
+              title="typescript"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+              alt="express"
+              title="express"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+              alt="Node.js"
+              title="Node.js"
+            />
+          </div>
+          <p>
+            A simple foundational CRUD API. Made as proof of understanding and generic practice of RESTful API routes
+            and practice.
           </p>
         </div>
       </div>
