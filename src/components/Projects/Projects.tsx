@@ -11,7 +11,7 @@ export default function Projects() {
       <div className="projects-container">
         <div className="project-card">
           <a
-            href="https://github.com/DelightSSB/AetherNotes"
+            href="aether-notes-72z4pcpit-delightssbs-projects.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
           >
