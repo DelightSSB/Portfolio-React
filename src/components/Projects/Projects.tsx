@@ -3,6 +3,7 @@ import AetherNotes from "../../assets/AetherNotes.png";
 import AICompanion from "../../assets/AI-Companion Image.png";
 import ToDo from "../../assets/ToDo-List.png";
 import CrudAPI from "../../assets/CRUD API.png"
+import RelayChat from "../../assets/Relay-Chat.png"
 
 export default function Projects() {
   return (
@@ -139,7 +140,7 @@ export default function Projects() {
             />
           </div>
           <p>
-            Current W.I.P project that's a customizable AI companion chatbox.
+            A customizable AI companion chatbox.
             Main feature is being able to create an ai girlfriend/boyfriend
             who's personality can be customized to your liking.
           </p>
@@ -172,6 +173,72 @@ export default function Projects() {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
               alt="Node.js"
               title="Node.js"
+            />
+          </div>
+          <p>
+            A simple foundational CRUD API. Made as proof of understanding and generic practice of RESTful API routes
+            and practice.
+          </p>
+        </div>
+        <div className="project-card">
+          <a
+            href="https://github.com/DelightSSB/relay-chat"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={RelayChat}
+              alt="Screen shot of Relay Chat frontend homepage"
+              className="poster"
+            />
+          </a>
+          <h3>Relay</h3>
+          <div className="project-tech-stack">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
+              alt="React"
+              title="React"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+              alt="Vite"
+              title="Vite"
+            />
+            
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-plain.svg"
+              alt="typescript"
+              title="typescript"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
+              alt="css"
+              title="css"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
+              alt="Node.js"
+              title="Node.js"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+              alt="express"
+              title="express"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg"
+              alt="socekt.io"
+              title="socket.io"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg"
+              alt="mongodb"
+              title="mongodb"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original.svg"
+              alt="Mongoose"
+              title="Mongoose"
             />
           </div>
           <p>
