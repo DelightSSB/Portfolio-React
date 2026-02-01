@@ -14,10 +14,10 @@ export default function Navbar() {
             <a href="#proficiencies">Proficiencies</a>
           </li>
           <li>
-            <a href="#projects">Previous Work Experience</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#contact">Resume & Contact</a>
+            <a href="#contact">Contact Me</a>
           </li>
         </ul>
       </nav>
