@@ -16,8 +16,8 @@ export default function About() {
         I’m a recent Computer Science graduate with a strong commitment to
         building and maintaining user-focused, scalable software solutions. I’m
         proficient in multiple programming languages and have hands-on
-        experience with both React and React Native frameworks. I also have a
-        great understanding of relational (SQL) and non-relational (NoSQL)
+        experience with both React framework and Node.js runtime. I have a
+        considerable understanding of relational (SQL) and non-relational (NoSQL)
         databases. Known for my leadership potential, collaborative mindset, and
         problem-solving abilities, I’m seeking a Software Engineer or Web
         Developer role where I can grow professionally and contribute to
