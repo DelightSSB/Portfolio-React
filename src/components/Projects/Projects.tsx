@@ -242,8 +242,8 @@ export default function Projects() {
             />
           </div>
           <p>
-            A simple foundational CRUD API. Made as proof of understanding and generic practice of RESTful API routes
-            and practice.
+            A real-time chat application made with MERN tech stack and websockets. Current W.I.P. planned features like JWT authentification, MongoDB persistence, and optimistic UI.
+            Made to show proficiencies in tools and display skills of industry code practices.
           </p>
         </div>
       </div>
