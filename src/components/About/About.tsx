@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="container">
       <img src={profileImg} alt="Photo of JaZir" />
       <h2>JaZir Monté Simon</h2>
-      <h3>Web Developer</h3>
+      <h3>Software and Systems Developer</h3>
       <h4 className="intro">
         Hello! I'm JaZir Monté Simon - A full-stack web developer with a passion
         for building sleek, responsive, and understandable web applications
