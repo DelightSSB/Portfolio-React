@@ -1,4 +1,5 @@
 import "./Proficiencies.css";
+import googleSheets from '../../assets/google-sheets-icon.svg'
 
 export default function Proficiencies() {
   return (
@@ -44,6 +45,14 @@ export default function Proficiencies() {
               alt="JavaScript"
               title="JavaScript"
             />
+            
+            <img 
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg"
+            className="profimg"
+            alt='SQL'
+            title='SQL'
+            />
+          
           </div>
         </div>
 
@@ -68,6 +77,14 @@ export default function Proficiencies() {
               alt="nodejs"
               title="nodejs"
             />
+            
+            <img 
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain-wordmark.svg"
+            className="profimg"
+            alt="Django"
+            title='Django'
+            />
+          
           </div>
         </div>
 
@@ -99,8 +116,8 @@ export default function Proficiencies() {
               title="figma"
             />
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Google_Sheets_logo_%282014-2020%29.svg/1498px-Google_Sheets_logo_%282014-2020%29.svg.png"
-              className="profimg"
+            
+              src={googleSheets}
               alt="Google Sheets"
               title="Google Sheets"
             />
